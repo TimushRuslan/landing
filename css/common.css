@@ -1,7 +1,15 @@
+*
+{margin:0 ;
+padding:0 ;
+box-sizing: border-box;
+}
 h1{
     color:blue;
     font-size: 40px;
 }
 h2{
     color: bisque;
+}
+p{
+    color: aquamarine;
 }
