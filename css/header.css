@@ -1,0 +1,25 @@
+.content__first{
+    color:blue;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+}
+.content__second{
+    color: aquamarine;
+text-align: center;
+}
+.content__third {
+    height: 40px; 
+    width: 35px; 
+
+}
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+h2{
+    color: bisque;
+    font-size: 1.2rem;
+    font-weight: 900;
+}

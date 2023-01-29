@@ -9,11 +9,7 @@
   <title>Ukraine</title>
   <link rel="stylesheet" href="css/index.css">
   <style>
-    body {
-      background-image: url('img/ukr.jpg');
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-    }
+    body 
   </style>
 </head>
 
@@ -21,15 +17,10 @@
   <header>
     <a href="">Content</a>
   </header>
-  <h1><i>
-      <center>Hello HTML</center>
-    </i></h1>
-  <p>
-    <center>Nice to see you Soft Serve!</center>
-  </p>
-  <center>
-    <img src="img/sobaka.jpg" alt="patron" style="height: 450px; width: 370px; left: 500px;">
-  </center>
+  <h1 class="content__first">Hello HTML</h1>
+  <p class="content__second">Nice to see you Soft Serve!</p>
+  <img class="content__third src="img/sobaka.jpg" alt="patron">
+
   <br>
 
   <span>
@@ -39,9 +30,32 @@
   x<sup>2</sup>
   <br>
   H<sub>2</sub>O
-  <nav>
-    <u>Taki novyny</u>
-  </nav>
+ <br>
+  <table>
+    <thead>
+      <tr>
+  <th colspan="3"> Employees </th>
+      </tr>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Nationality</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>American</td>
+      </tr>
+      <tr>
+        <td>Inna</td>
+        <td>Osypenko</td>
+        <td>Ukrainian</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
   <textarea name="tablitsa" id="1" cols="30" rows="10">abcdefghnmkds</textarea>
   <br>
   What do you do tomorrow?
@@ -96,6 +110,13 @@
     </div>
     <form action="#">
       <input type="file">
+      <br>
+      <input type="text" name="fullname" placeholder="write your name">
+      <br>
+      <label for="demo">Write your tel.number:</label>
+      <input type="text" id="demo" placeholder="Your tel.number">
+      <br>
+      <input type="submit">
     </form>
 
     <h2>Select car</h2>
