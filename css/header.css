@@ -9,8 +9,9 @@
 text-align: center;
 }
 .content__third {
-    height: 40px; 
-    width: 35px; 
+    height: 50%; 
+    width: 30%; 
+    align-items: center;
 
 }
 table, th, td{
